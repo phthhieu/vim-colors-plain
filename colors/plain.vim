@@ -150,7 +150,7 @@ hi! link PreCondit        PreProc
 call s:h("Noise",         {"fg": s:norm_subtle, "gui": "NONE"})
 hi! link Operator         Noise
 hi! link LineNr           Noise
-hi! link CursorLineNr     LineNr
+hi! link CursorLineNr     Constant
 hi! link FoldColumn       LineNr
 hi! link SignColumn       LineNr
 
